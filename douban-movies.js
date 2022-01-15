@@ -5,6 +5,7 @@
 // @description  提供在线观看豆瓣电影的链接 
 // @author       anc95
 // @match        https://movie.douban.com/subject/*
+// @include      https://movie.douban.com/subject/*
 // @icon         https://www.google.com/s2/favicons?domain=douban.com
 // @grant        none
 // @license      MIT
