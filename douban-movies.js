@@ -7,6 +7,7 @@
 // @match        https://movie.douban.com/subject/*
 // @icon         https://www.google.com/s2/favicons?domain=douban.com
 // @grant        none
+// @license      MIT
 // ==/UserScript==
 
 function invirant(condition, message) {
