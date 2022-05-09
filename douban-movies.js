@@ -26,7 +26,7 @@ function invirant(condition, message) {
   }
   
   function getMovieList(movieName) {
-    const url = 'https://api.jackeriss.com/api/v1/search/?text=' + movieName + '&type=0&from=0&size=10';
+    const url = 'https://api2.jackeriss.com/api/v1/search/?text=' + movieName + '&type=0&from=0&size=10';
     return fetch(url)
       .then(function(res) {
         return res.json();
