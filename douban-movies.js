@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         豆瓣电影在线观看
 // @namespace    http://tampermonkey.net/
-// @version      0.1.2
+// @version      0.1.3
 // @description  提供在线观看豆瓣电影的链接 
 // @author       anc95
 // @match        https://movie.douban.com/subject/*
