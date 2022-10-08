@@ -956,7 +956,7 @@ function invirant(condition, message) {
   }
   
   function getMovieList(movieName) {
-    const url = 'https://api2.jackeriss.com/api/v2/search/?text=' + movieName + '&type=0&from=0&size=10&token='+CryptoJS.SHA1(movieName+'URBBRGROUN').toString();
+    const url = 'https://api.cupfox.app/api/v2/search/?text=' + movieName + '&type=0&from=0&size=10&token='+CryptoJS.SHA1(movieName+'URBBRGROUN').toString();
     return fetch(url)
       .then(function(res) {
         return res.json();
